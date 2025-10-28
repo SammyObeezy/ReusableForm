@@ -5,15 +5,25 @@
   text-align: center;
 }
 
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Optional: Remove default Vite styles if you don't need them */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -39,4 +49,31 @@
 
 .read-the-docs {
   color: #888;
+}
+.form-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-selector button {
+  padding: 10px 20px;
+  border: 2px solid #2563eb;
+  background: white;
+  color: #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.form-selector button:hover {
+  background: #eff6ff;
+}
+
+.form-selector button.active {
+  background: #2563eb;
+  color: white;
 }
