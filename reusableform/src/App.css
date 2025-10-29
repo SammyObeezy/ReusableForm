@@ -21,7 +21,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #00838f);
 }
 
 .logo.react:hover {
@@ -60,9 +60,9 @@
 
 .form-selector button {
   padding: 10px 20px;
-  border: 2px solid #2563eb;
+  border: 2px solid #00838f;
   background: white;
-  color: #2563eb;
+  color: #00838f;
   border-radius: 6px;
   cursor: pointer;
   font-weight: 600;
@@ -74,6 +74,6 @@
 }
 
 .form-selector button.active {
-  background: #2563eb;
+  background: #00838f;
   color: white;
 }
